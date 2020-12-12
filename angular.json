@@ -93,7 +93,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ]
           }
         },
         "lint": {
@@ -124,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "angular-rest"
+  "defaultProject": "angular-rest",
+  "cli": {
+    "analytics": "dee66aca-f652-4254-8ca1-f9b9cedf9e1c"
+  }
 }
